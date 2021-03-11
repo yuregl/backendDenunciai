@@ -1,5 +1,7 @@
 import express from 'express';
 
+const user = 'teste';
+
 const app = express();
 
 app.get('/', (request, response) => {
